@@ -16,4 +16,6 @@ function add_this_script_footer(){
         
         </script>
 <?php
-}
+} 
+ 
+add_action('wp_footer', 'add_this_script_footer', 20);
